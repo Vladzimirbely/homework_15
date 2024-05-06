@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "homework-15"
+version = "0.1.0"
+description = ""
+authors = ["Uladzimir Bely <vladzimir.bely@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "2.0.0rc6"
+pytest = "^8.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+pylint = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
